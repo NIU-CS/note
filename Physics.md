@@ -2044,7 +2044,88 @@ $= \frac{1}{\sqrt{4\pi \times 10^{-7}\times 8.85\times 10^{-12}}}$
 $1 el = 1.6\times 10^{-19} C$ 為基本單位
 $Q = n|e|$ n 為整數
 
+### 21.2 Insulators & Conductors 絕緣體和導體
 
+![image](https://hackmd.io/_uploads/HkDlqgXSa.png)
+![image](https://hackmd.io/_uploads/rJFZcemBa.png)
+
+加 Si,Ge 成為半導體
+Y, Ba, Cu, O 超導體 $92^。k$
+             低溫超導 $40^。k$ 以下
+
+$T < T_c$
+
+1. 零電阻
+2. 抗磁性
+
+### 21.3 Coulumb's law
+
+$F_c = k \frac{g_1 g_2}{k}$
+
+k: 庫侖常數 $8.99 \times 10^9 Nm^2/c^2$
+
+$\epsilon_0$ : 容電常數 permittivity constant
+
+$k = \frac{1}{4\pi\epsilon_0}$
+
+$\epsilon_0: 8.85 \times 10^{-12}$
+
+EX:
+
+![](https://hackmd.io/_uploads/SkOc3gQHT.png)
+
+$q_3$ 放至在何處?力為0
+
+Sol:
+
+$q_3$ 放在 A, B, C, D 點皆不為 0
+$q_3$ 在 $p$ 點 $F_{13} = F_{23}$
+
+$\frac{kq_1q_3}{x^2} = \frac{kq_2q_3}{(10.0-x)^2}$
+
+$g_2 = 4g_1$
+
+$\frac{g_1}{x^2} = \frac{4g_1}{(10.0 - x)^2}$
+
+$\frac{1}{x} = \pm \frac{2}{10.0 - x}$
+
+$g_2 = 3g_1$
+
+$\frac{g_1}{x^2} = \frac{3g_1}{(10.0 - x)^2}$
+
+$\frac{1}{x} = \pm \frac{\sqrt{3}}{10.0 - x}$
+
+$x = 3.66$ cm $-13.66$ cm 後者不合
+
+### 21.4 Coulumb's law & Newton's law of gravity
+
+EX:
+
+$Fe, Fg$ ratio = ?
+
+Sol:
+
+$Fe = \frac{ke^2}{r^2}, Fg = \frac{Gm^2}{r^2}$
+
+$\frac{Fe}{Fg} = \frac{\frac{ke^2}{r^2}}{\frac{Gme^2}{r^2}} = \frac{ke^2}{Gme^2} = \frac{9 \times 10^9 \times (1.6 \times 10^{-19})^2}{(6.67 \times 10^{-11})(9.11 \times 10^{-31})^2}$
+
+Electric Fields 電場
+
+![image](https://hackmd.io/_uploads/r1QkWWXB6.png)
+![image](https://hackmd.io/_uploads/HydkZbmB6.png)
+
+$\vec E \equiv \frac{\vec F_e}{g_0}$
+
+電場方向
+電場單位 : $\frac{N}{c}$
+
+$\vec E = \frac{\vec F_e}{g_1} = \frac{\frac{k g_0 Q}{r^2} \hat r}{g_0} = \frac{kQ}{r^2} \hat r$
+
+$\vec E_p = \sum_i \vec E_i = k\sum_i \frac{g_i}{r_i^2} \hat r_i$
+
+
+
+$\vec E_p = k\int \frac{1}{r^2}dq\hat r$
 
 
 
