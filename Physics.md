@@ -2129,6 +2129,160 @@ $\vec E_p = k\int \frac{1}{r^2}dq\hat r$
 
 
 
+法拉第 $\rightarrow$ 電力場
+
+1. 力線上的任一點切線方向即為$\vec E$的方向
+2. 單位面積之線數正比於$\vec E$大小
+3. 可描述$\vec E = \frac{kq}{r^2} \hat r$
+
+【image】你寫這樣我不知道是哪張
+
+$\frac{N}{4\pi r^2} \space \alpha \space E$
+線數(N) $\alpha$ 電荷數(nq)
+$E \space \alpha \space \frac{nq}{4\pi r^2} = \frac{kq}{r^2}$
+
+4. 畫法
+
+【image】
+
+5. 電力線不相交
+
+Ex. Diople 電隅極
+$\vec E_p = ?$
+
+【image】
+
+Sol:
+
+因為對稱，所以只算 y 方向
+
+$(E_p)_y = E_{+y} + E_{-y}$
+$= \frac{kq}{r^2_+} sin\theta + \frac{kq}{r^2_-} sin\theta$
+$= \frac{2kq}{r^2_+} \frac{\frac{S}{2}}{r_+} = \frac{kqS}{((\frac{S}{2})^2 + x^2)^{\frac{3}{2}}}$
+
+【image】
+
+$x>>1$ $(E_p)_y = \frac{kqs}{x^3}$
+點電荷 $E_p = \frac{kq}{r^2}$
+$\vec p = q \vec S$ diople(-$\rightarrow$+)
+$\vec E_p = \frac{k\vec p}{r^3}$ diople electric field
+$E_{\theta} = \frac{2k\vec p}{r^3}$ (自行練習)
+
+Ex: 均勻帶電體
+
+$\vec E_p = ?$
+
+【image】
+
+Sol:
+$(E_p)_x = \int^\frac{L}{2}_{-\frac{L}{2}} dE_{ix} = \int^\frac{L}{2}_{-\frac{L}{2}}\frac{kdq}{r^2}\frac{d}{r}$
+$= \int^{\frac{L}{2}}_{-\frac{L}{2}}\frac{kd}{(d^2 + y^2)^{\frac{3}{2}}}dq$
+$= \int^{\frac{L}{2}}_{-\frac{L}{2}}\frac{kd}{(d^2 + y^2)^{\frac{3}{2}}}\lambda dy$
+$\lambda = \frac{Q}{L}$ 總電荷密度
+
+公式: $= kd\lambda \frac{y}{d^2(d^2 + y^2)^\frac{1}{2}}\bracevert^\frac{L}{2}_{-\frac{L}{2}}$
+$= \frac{kQ}{d(d^2 + (\frac{L}{2})^2)^\frac{1}{2}}$
+d>>1
+$(E_p)_x \approx \frac{kQ}{d^2}$ ?點電荷電場
+
+Ex: 均勻帶電體 $\vec E_p = ?$ 
+
+【image】
+
+Sol: 因為對稱所以只算z方向
+$(E_p)_z = \sum_i \frac{k\Delta Q_i}{r^2_i} \frac{z}{r_i}$
+$= \frac{kQz}{(R^2+z^2)^\frac{3}{2}}$
+z>>R||1 $(E_p)_z \approx \frac{kQz}{z^3} \approx \frac{kQ}{z^2}$ ??電荷電場
+z<<R $(E_p)_{canter} \approx 0$
+
+Ex: Disk 均勻帶電體 
+
+$\vec E_p = ?$
+
+【image】
+
+$(E_p)_z = \int \frac{kz}{(r^2+z^2)^\frac{3}{2}}dq$
+
+Ex: Plame of charge
+
+![image](https://hackmd.io/_uploads/H1gjH4nH6.png)
+
+無限平面帶均勻電荷
+$\rho$ 面電荷密度(定值)
+將 Disk 圓盤 R$\rightarrow\infty$
+$Eplane = \frac{\rho}{2\epsilon_0}$
+$\vec E_phane = \frac{\rho}{2\epsilon_0} \space ，z>0$
+            $=-\frac{\rho}{2\epsilon_0} \space ,z<0$
+
+EX: Sphere of charge (?率)
+
+![image](https://hackmd.io/_uploads/SJQaSEnSp.png)
+
+$\vec{E_{sphere}} = \frac{kQ}{r^2} \hat r , r\ge R$
+
+EX: Parallel - Plate Capacitor (電容器)
+
+![image](https://hackmd.io/_uploads/S19Z8NhBa.png)
+
+$E = E_+ + E_- = \frac{\rho}{2\epsilon_0} + \frac{\rho}{2\epsilon_0} = \frac{\rho}{\epsilon_0}$
+
+$\vec{F_e} = q\vec E = m\vec a, \vec a = \frac{q\vec E}{m}$
+
+### Motion of a dipde in an $\vec E$
+
+![image](https://hackmd.io/_uploads/H1e_IEhHT.png)
+
+$|\vec\tau| = lF = qEs\space sin\theta = pEsin\theta$
+$\vec\tau = \vec P \times \vec E$
+
+### Gauss' Law 高斯定律
+
+$\phi_E$: Electric Flux 電通量
+
+![image](https://hackmd.io/_uploads/BJyl9N2Hp.png)
+
+$\vec E \parallel \vec A$
+
+$\phi_E = EA$
+
+![image](https://hackmd.io/_uploads/Bkqxq43BT.png)
+
+$\phi_E = EAcos\theta$
+$\phi_E = \vec E \vec A$
+
+![image](https://hackmd.io/_uploads/S1fb54hrp.png)
+
+$d\Phi_E = E_i a_i cos\theta_i$
+$\Phi_E = \int d|Phi = \int_{surface} \vec E d\vec A$
+
+![image](https://hackmd.io/_uploads/SyzzqV2ST.png)
+
+$\Phi_E = \oint \vec E d\vec A$ 封閉曲面
+
+Symmetry(對稱) $\rightarrow$ Invariane(不變量) $\rightarrow$ Conservation(守恆律)
+
+- Planar Symm
+
+![image](https://hackmd.io/_uploads/SkK8s42ST.png)
+
+- Cylindrical Symm
+
+![image](https://hackmd.io/_uploads/ryxPiN3Ba.png)
+
+- sphere Symm
+- 
+![image](https://hackmd.io/_uploads/HylwjVhSa.png)
+
+高斯定律
+
+![image](https://hackmd.io/_uploads/B16-eHnBa.png)
+
+$\phi_E = \oint \vec E d\vec A = \oint EdA = E \oint dA = \frac{kq}{r^2}4\pi r^2 = kq4\pi = \frac{q}{\epsilon_0}$
+
+![image](https://hackmd.io/_uploads/HyAfgH2Sp.png)
+
+
+
 
 <!-- 討論區
 字太多是不是 狗幹卡 
